@@ -9,7 +9,10 @@ import { SettingsButton } from '~/components/ui/SettingsButton';
 import { useState } from 'react';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Bolt' }, { name: 'description', content: 'Talk with Bolt, an AI assistant from StackBlitz' }];
+  return [
+    { title: 'EVENTFLOW AI' },
+    { name: 'description', content: 'Professional AI Event Photo Retouching & Album Designer' },
+  ];
 };
 
 export const loader = () => json({});
